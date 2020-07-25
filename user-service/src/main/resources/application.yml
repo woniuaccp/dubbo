@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: dubbo-auto-configuration-provider-demo
+#使用xml配置 此处可以不用
+#dubbo:
+#  scan:
+#    base-packages: com.woniu.user.service.impl
+#  protocol:
+#    name: dubbo
+#    port: 12345
+#  registry:
+#    address: zookeeper://127.0.0.1:2181
+#    address: N/A 默认sample
