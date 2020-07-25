@@ -16,7 +16,7 @@ import org.springframework.context.annotation.ImportResource;
 public class ServiceApplication {
     public static void main(String[] args) {
         //SpringApplication.run(ServiceApplication.class);
-        //说明不是web项目启动...
+        //说明不是web项目启动
         new SpringApplicationBuilder(ServiceApplication.class).web(WebApplicationType.NONE).run();
     }
 }
