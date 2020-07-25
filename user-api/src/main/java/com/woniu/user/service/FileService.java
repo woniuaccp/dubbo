@@ -7,5 +7,6 @@ package com.woniu.user.service;
  * @date 2020-07-05 22:28
  */
 public interface FileService {
+    //上传
     void upload(String msg);
 }
